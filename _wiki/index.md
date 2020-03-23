@@ -19,7 +19,11 @@ comment : false
 * [[Vim]]
     * [[my-wiki]]
     * [[vim-conceallevel]]{conceallevel (Vim)}
+    * [[vim-mapping]]
+    * [[vim-session]]
 * [[YAML]]
+* [[Firefox]]
+    * [[Firefox에서 Copy가 안되요]]
 
 
 ---
