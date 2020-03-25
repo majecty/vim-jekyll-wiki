@@ -24,7 +24,7 @@ comment : false
     * [[vim-debug-config]]{VIM 설정 디버깅하기}}
 * [[YAML]]
 * [[Firefox]]
-    * [[Firefox에서 Copy가 안되요]]
+    * [[FireFox에서 Copy가 안돼요]]
 
 
 ---
