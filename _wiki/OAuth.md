@@ -3,7 +3,7 @@ layout  : wiki
 title   : OAuth
 summary : 
 date    : 2020-03-25 17:37:53 +0900
-updated : 2020-03-25 20:06:48 +0900
+updated : 2020-03-26 00:15:34 +0900
 tags    : 
 toc     : true
 public  : false
@@ -62,18 +62,27 @@ Consumer는 다음 과정을 거쳐서 권한을 얻는다.
 * oauth_token: 다음 요청부터 사용할 토큰
 * oauth_verifier
 
-
 ## 관심가질만한 과정들
 
 * oauth_signature를 만들 때 사용하는 키는 Consumer Secret Key다. 이 키는 보통 Service Provider가 이전에 Consumer에게 발급해준다.
 * Reuest Token 요청에 대한 응답으로 oauth_token과 oauth_secret를 준다.
 * 유저가 Service Provider에 로그인 성공하면, Consumer는 Service Provider로부터 새로운 oauth_token과 oauth_verifier를 받는다. 왜 다른 필드에 같은 이름을 쓸까?
-* 
+    * 스펙의 예시에서는 다른 값이 아니다. 같은 값이다. 이 과정을 나타내는 유일한 토큰이 oauth_token이며 temporary token이라고 부른다.
 
 ## 궁금한 점
 
+* 왜 3번의 과정이 필요할까? 1번에 끝낼 순 없을까?
+    * 1단계가 필요한 이유: Consumer가 요청했다는 것을 증명하기 위해서다. 유저가 컨슈머인 것 처럼 행동 못하게 방지
+    * 2단계가 필요한 이유: Consumer가 유저인 것처럼 행동 못하게 하기 위해서다. 유저는 웹브라우저를 사용함으로써 아이디 비번을 Consumer에게 노출하지 않는다.
+    * 3단계가 필요한 이유: 유저가 키를 빼돌려서 다른 어플리케이션에게 넘겨주지 못하게 하기 위해서다.
+    * 정말 필요한가? 그냥 2단계에 인자 더 추가해주고 응답에서 결과를 풍부하게 줘도 되잖아.
+    * 2,3단계 구분은 필요해. 왜냐면 웹 클라이언트는 스테이트가 없기 때문이야.
+    * 1, 2 단계 구분이 필요해. 왜냐면 리플레이 어택을 방지하고 싶기 때문이야??
+    * 1, 2단계를 구분하면 2단계가 엄청나게 간단해진다. 확장할 때 2단계쪽은 건드리지 않아도 돼. 이건 장점인 걸까? 기능을 분산시켜서 관심사 분리를 한거지.
 * Request Token이 필요한 이유는 무엇일까?
+    * Request Token은 2단계에서 사용한다. 2단계에서 Resource Owner가 보내는 요청이 Client가 보냈다는 걸 증명하기 위해 사용한다.
 * Signature가 필요한 이유는?
+    * 전송 과정이 안전하지 않는 경우에도 쓰려고, 안전하면 PLAINTEXT방식으로 시크릿을 그냥 보내도 된다.
 * 콜백에 필요한 이유는? 없이는 무엇을 할 수 있나?
 * oauth_nonce와 timestamp의 역할은 무엇인가?
 * oauth_verifier의 역할은 무엇인가?
