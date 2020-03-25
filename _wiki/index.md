@@ -2,7 +2,7 @@
 layout  : wikiindex
 title   : wiki
 date    : 2017-11-26 21:38:36 +0900
-updated : 2019-10-30 08:36:56 +0900
+updated : 2020-03-25 15:10:39 +0900
 tags    : index
 toc     : true
 public  : true
@@ -21,6 +21,7 @@ comment : false
     * [[vim-conceallevel]]{conceallevel (Vim)}
     * [[vim-mapping]]
     * [[vim-session]]
+    * [[vim-debug-config]]{VIM 설정 디버깅하기}}
 * [[YAML]]
 * [[Firefox]]
     * [[Firefox에서 Copy가 안되요]]
