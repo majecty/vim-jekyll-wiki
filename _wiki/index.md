@@ -2,7 +2,7 @@
 layout  : wikiindex
 title   : wiki
 date    : 2017-11-26 21:38:36 +0900
-updated : 2020-03-25 17:37:46 +0900
+updated : 2020-03-25 20:14:53 +0900
 tags    : index
 toc     : true
 public  : true
@@ -25,7 +25,7 @@ comment : false
     * [[vim-mapping]]
     * [[vim-session]]
     * [[vim-debug-config]]{VIM 설정 디버깅하기}
-* Web
+* [[Web]]
     * [[OAuth]]
 * [[YAML]]
 * [[Firefox]]
