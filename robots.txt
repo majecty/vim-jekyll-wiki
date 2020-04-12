@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://johngrib.github.io/sitemap.xml
+Sitemap: https://majecty.github.io/sitemap.xml
