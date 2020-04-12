@@ -1,6 +1,6 @@
 # Vim Jekyll wiki
 
-이 wiki는 Johngrip님의 위키를 클론한 프로젝트다.
+이 wiki는 Johngrib님의 위키를 클론한 프로젝트다.
 자세한 사항은 https://johngrib.github.io/wiki/my-wiki/ 을 참고하자.
 위 문서에서 vim 설정에 관한 내용만 추려서 정리한다.
 
@@ -8,7 +8,7 @@
 
 ### Vimwiki 설정
 
-Johngrip님의 문서에서 Vimwiki설정을 따라한다.
+Johngrib님의 문서에서 Vimwiki설정을 따라한다.
 
 ### Startify 설정
 
@@ -39,11 +39,11 @@ let g:fzf_preview_window = 'right:60%'
 
 ### Vim wiki 상세 설정
 
-Johngrip님이 따로 작성하신 [vimwiki문서](https://johngrib.github.io/wiki/vimwiki/)가 있다. 참고해서 적용하자.
+Johngrib님이 따로 작성하신 [vimwiki문서](https://johngrib.github.io/wiki/vimwiki/)가 있다. 참고해서 적용하자.
 
 ### Tagbar 설정
 
-Johngrip님의 [vim tagbar에서 markdown을 적용시키자](https://johngrib.github.io/wiki/vim-tagbar-with-markdown/)를 따라하자.
+Johngrib님의 [vim tagbar에서 markdown을 적용시키자](https://johngrib.github.io/wiki/vim-tagbar-with-markdown/)를 따라하자.
 
 ## 새 파일 만들기
 
