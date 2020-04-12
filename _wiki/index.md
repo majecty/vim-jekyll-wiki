@@ -2,32 +2,23 @@
 layout  : wikiindex
 title   : wiki
 date    : 2017-11-26 21:38:36 +0900
-updated : 2020-03-25 20:14:53 +0900
+updated : 2020-04-12 19:11:10 +0900
 tags    : index
 toc     : true
 public  : true
 comment : false
 ---
 
-* [[tools]]
-    * [[useful-site]]
-        * [[google-search-console-remove-outdated-content]]{구글 웹 도구 - 오래된 콘텐츠 삭제}
-* [[programming-language]]{프로그래밍 언어}
-    * [[Groovy]]
-* [[how-to]]
-    * [[mathjax-latex]]
 * [[Emacs]]
     * [[ediff]]
     * [[Emacs-한글-폰트가-이상해요]]
 * [[Vim]]
-    * [[my-wiki]]
     * [[vim-conceallevel]]{conceallevel (Vim)}
     * [[vim-mapping]]
     * [[vim-session]]
     * [[vim-debug-config]]{VIM 설정 디버깅하기}
 * [[Web]]
     * [[OAuth]]
-* [[YAML]]
 * [[Firefox]]
     * [[FireFox에서 Copy가 안돼요]]
 
