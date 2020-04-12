@@ -1,7 +1,7 @@
 # Site settings
 title: 주형
-url: "https://majecty.github.io"
-baseurl: ""
+url: "https://blog.majecty.com"
+baseurl: "/vim-jekyll-wiki/"
 description: >
     빔 위키
 
@@ -18,7 +18,7 @@ plugins:
   - jekyll-paginate
   - jekyll-gist
 
-permalink: /blog/:year/:month/:day/:title/
+# permalink: /blog/:year/:month/:day/:title/
 
 markdown: kramdown
 highlighter: rouge
@@ -26,9 +26,9 @@ kramdown:
   input: GFM
   syntax_highlighter: rouge
 
-paginate: 10
-paginator_path: "/blog"
-paginate_path: "/blog/page:num/"
+# paginate: 10
+# paginator_path: "/blog"
+# paginate_path: "/blog/page:num/"
 
 # Collections
 collections:
