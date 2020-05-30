@@ -2,7 +2,7 @@
 layout  : wikiindex
 title   : wiki
 date    : 2017-11-26 21:38:36 +0900
-updated : 2020-04-25 12:25:43 +0900
+updated : 2020-05-30 10:44:12 +0900
 tags    : index
 toc     : true
 public  : true
@@ -12,8 +12,6 @@ comment : false
 * [[Emacs]]
     * [[ediff]]
     * [[Emacs-한글-폰트가-이상해요]]
-* [[Linux]]
-    * [[Linux Keyboard Setting]]
 * [[Programming Language]]
 * [[Concurrent Programming]]
     * [[Atomic Ordering]]
