@@ -2,7 +2,7 @@
 layout  : wikiindex
 title   : wiki
 date    : 2017-11-26 21:38:36 +0900
-updated : 2020-05-30 22:08:48 +0900
+updated : 2020-07-22 11:33:43 +0900
 tags    : index
 toc     : true
 public  : true
@@ -15,6 +15,8 @@ comment : false
 * [[Programming Language]]
     * [[JavaScript]]
         * [[rollup]]
+    * Bash
+        * [[declare]]
 * [[Concurrent Programming]]
     * [[Atomic Ordering]]
 * [[Vim]]
@@ -29,6 +31,8 @@ comment : false
         * [[CSS-position]]
 * [[Firefox]]
     * [[FireFox에서 Copy가 안돼요]]
+* TroubleShoot
+    * [[ldconfig]]
 
 
 ---
