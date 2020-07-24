@@ -2,7 +2,7 @@
 layout  : wikiindex
 title   : wiki
 date    : 2017-11-26 21:38:36 +0900
-updated : 2020-07-24 10:35:25 +0900
+updated : 2020-07-24 21:09:43 +0900
 tags    : index
 toc     : true
 public  : true
@@ -34,6 +34,7 @@ comment : false
     * [[FireFox에서 Copy가 안돼요]]
 * TroubleShoot
     * [[ldconfig]]
+    * [[리눅스에셔-세벌식-p2-사용하기]]
 
 
 ---
